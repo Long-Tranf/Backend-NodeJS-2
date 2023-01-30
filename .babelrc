@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ]
+    //cấu hình trình biên dịch,giúp thư viện hoạt động
+}

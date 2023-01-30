@@ -1,0 +1,28 @@
+-đẩy file lên git
+-ctrl + `
+-git init (tạo git folder)
+-git add . ()
+-git commit -m 'Tên commit'
+-git remote add origin + tên đường dẫn git trên web(copy trên git)
+-git push origin master
+
+Install:
+npm install --save body-parser@1.19.0 dotenv@8.2.0 ejs@3.1.5 express@4.17.1
+npm install --save-dev @babel/core@7.20.12 @babel/preset-env@7.20.2 @babel/node@7.20.7 nodemon@2.0.7
+
+structure of BackEnd NodeJS(Like Laravel Framework)
+
+-Create scr Folder 
+-In src Folder,create folders and files as follows:
++config (cấu hình tham số): viewEngine.js
++controllers : 
++public (luu trữ hình ảnh,css...):
++route (): web.js
++services (chọc tới DB):
++views (luu trữ các file view,html...): 
++server.js (use to run the server)
+-In outside the src folder, create file(tham số môi trường) as follows:
++ .babelrc (trình biên dịch)
++ .env (file không đẩy lên git)
++ .env.example (file dùng để đẩy lên git)
++ .gitignore (Quy định những file cần đẩy lên git)
